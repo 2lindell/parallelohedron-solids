@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="111" field="golden" version="7.1">
-  <EditHistory editNumber="779" lastStickyEdit="779">
+  <EditHistory editNumber="781" lastStickyEdit="779">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -1280,15 +1280,21 @@
     <DeselectAll/>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="2"/>
     <ShowHidden/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="3"/>
+    <ShowHidden/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="3" title="Faces">

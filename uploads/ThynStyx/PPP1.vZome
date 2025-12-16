@@ -348,7 +348,9 @@
     <BookmarkTool name="tool-2"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="0"/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <DeselectAll/>
@@ -357,7 +359,9 @@
     <DeselectAll/>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="1"/>
     <ShowHidden/>
     <DeselectAll/>
@@ -367,7 +371,9 @@
     <Branch>
       <BookmarkTool name="tool-3"/>
     </Branch>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
     <BookmarkTool name="tool-4"/>
     <DeselectAll/>
@@ -378,7 +384,9 @@
     <DeselectAll/>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <SelectManifestation point="0 0 0 0 0 0"/>
     <Delete/>
     <Snapshot id="2"/>
@@ -396,28 +404,14 @@
     <ApplyTool copyColors="true" name="tool-4" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="3"/>
     <ShowHidden/>
     <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="0" title="Faces">
-      <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-        <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
-    <page snapshot="1" title="Edges">
-      <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-        <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
     <page snapshot="3" title="Faces">
       <ViewModel distance="82.17733001708984" far="164.3546600341797" near="0.2054433375597" parallel="true" stereoAngle="0.0" width="36.97980880737305">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
@@ -441,10 +435,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
+    <ViewModel distance="75.85923767089844" far="151.71847534179688" near="0.18964815139770508" parallel="true" stereoAngle="0.0" width="34.13667297363281">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-      <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="lifelike">

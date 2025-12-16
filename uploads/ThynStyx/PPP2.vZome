@@ -569,7 +569,9 @@
     <BookmarkTool name="tool-5"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-4" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="0"/>
     <ShowHidden/>
     <DeselectAll/>
@@ -586,12 +588,16 @@
     <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-4" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="2"/>
     <ShowHidden/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="3"/>
     <ShowHidden/>
     <DeselectAll/>
@@ -622,8 +628,8 @@
   <Viewing>
     <ViewModel distance="65.9488525390625" far="131.897705078125" near="0.16487213969230652" parallel="true" stereoAngle="0.0" width="29.676992416381836">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.80901700258255" y="0.30901700258255005" z="-0.5"/>
-      <LookDirection x="-0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="lifelike">
