@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="111" field="golden" version="7.1">
-  <EditHistory editNumber="67" lastStickyEdit="67">
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="115" field="golden" version="7.1">
+  <EditHistory editNumber="68" lastStickyEdit="68">
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
   "vertices" : [ [ [ -1, -2, 1 ], [ -1, -2, 1 ], [ -1, -2, 1 ] ], [ [ -1, -2, 1 ], [ -1, -2, 1 ], [ 1, 2, 1 ] ], [ [ -1, -2, 1 ], [ 1, 2, 1 ], [ -1, -2, 1 ] ], [ [ -1, -2, 1 ], [ 1, 2, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 1, 2, 1 ], [ -1, -2, 1 ], [ -1, -2, 1 ] ], [ [ 1, 2, 1 ], [ -1, -2, 1 ], [ 1, 2, 1 ] ], [ [ 1, 2, 1 ], [ 1, 2, 1 ], [ -1, -2, 1 ] ], [ [ 1, 2, 1 ], [ 1, 2, 1 ], [ 1, 2, 1 ] ] ],
@@ -105,7 +105,9 @@
       <polygonVertex at="-1 -2 1 2 -1 -2"/>
     </SelectManifestation>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
     <Delete/>
     <ShowHidden/>
@@ -180,7 +182,9 @@
       <polygonVertex at="1 2 1 2 -1 -2"/>
     </SelectManifestation>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <ShowHidden/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
@@ -204,23 +208,30 @@
       <polygonVertex at="-1 -2 1 2 -1 -2"/>
     </SelectManifestation>
     <EndBlock/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <ShowHidden/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="0"/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="1"/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <DeselectAll/>
     <Snapshot id="2"/>
+    <Snapshot id="3"/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Edges">
@@ -239,11 +250,19 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="2" title="Aesthetic view">
+    <page snapshot="2" title="Aesthetic view 1">
       <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="-0.21850800514221191" y="0.7905694246292114" z="-0.5720614194869995"/>
         <LookDirection x="-0.5773502588272095" y="-0.5773502588272095" z="-0.5773502588272095"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="3" title="Aesthetic view 2">
+      <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="0.9341723322868347" z="-0.35682210326194763"/>
+        <LookDirection x="0.0" y="-0.35682210326194763" z="-0.9341723322868347"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
@@ -256,8 +275,8 @@
   <Viewing>
     <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.0" y="1.0" z="0.0"/>
-      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      <UpDirection x="-0.21850800514221191" y="0.7905694246292114" z="-0.5720614194869995"/>
+      <LookDirection x="-0.5773502588272095" y="-0.5773502588272095" z="-0.5773502588272095"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="lifelike">
